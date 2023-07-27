@@ -1,0 +1,106 @@
+
+
+
+@media only screen and (max-width: 768px) {
+
+
+    #sli{
+    width: 100%;
+    margin-left: 40px; 
+     display: flex;
+     justify-content: center;
+  }
+  .icon{
+    margin-left: 20px;
+  }
+  .icon_heading{
+    margin-left: 10px;
+  }
+  .icon_text{
+       margin-top: 10px;
+       margin-left: 10px;
+  }
+  .div{
+    display: flex;
+  }
+   #row1{
+    margin-top: 60px;
+    height: 450px !important;
+   }
+   #row2{
+    padding-left: 0px !important;
+   }
+   #img{
+    width: 250px !important;
+   }
+   .heading_line{
+    width: 95% !important; 
+   }
+   .slider_card{
+    display: flex !important;
+    justify-content: center !important; 
+   }
+   .navbar-nav{
+    text-align: center !important;
+   }
+  .heading_text{
+    text-align: center !important;
+    
+  }
+   
+    [class*="col"] {
+      width: 100%;
+      margin-top: 10px !important;
+      margin-bottom: 5px !important;
+      
+    }
+  } 
+  
+
+  .card .sci {
+    position: absolute;
+    bottom: -12px;
+      display: flex;
+    
+  }
+  
+  .card .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+  }
+  
+  .card:hover  .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+     
+  }
+  .card:hover .card_effect  {
+      background-color: #198754 !important;
+      width: 100%;
+      height: 50px;
+      
+  
+  }
+  .card .sci li a {
+    
+    font-size: 20px;
+  }
+  
+  .geeks {
+    width: 355px;
+    height: 180px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.geeks img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+.geeks:hover img {
+    transform: scale(1.5);
+}
